@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript </title>
+
+</head>
+
+<body>
+    <p id="result"></p>
+    <script>
+        var str = "hello boss"; // sting data type
+        document.write(str.toUpperCase());
+        document.write("</br>")
+          document.write(str.startsWith('i'));
+          document.write("</br>")
+          for(var i=1;i<=10;i++)
+          {
+            document.write("javascript");
+          }
+          for(let r=0;r<5;r++)
+          {
+            document.write("number: ",r);
+          }
+          // sum of elements
+          let sum=0;
+          for(let i=10;i<=20;i++){
+            sum=sum+i
+          }
+          document.write("summation of number: ",sum)
+         var fruits = ['mango', 'apple', 'strawberry'];
+
+            var text = "";
+
+            var j;
+
+            for (j = 0; j < fruits.length; j++) {
+
+                text = text + fruits[j] + "</br>";
+
+            }
+
+            document.getElementById('demo1').innerHTML = text;
+    </script>
+
+
+</body>
+
+</html>
